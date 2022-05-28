@@ -52,3 +52,7 @@ IIID.show(objects,(0,0,0),1280,720,[120,-15,1,0,-1],(1,0))
 全景：
 IIID2.show(objects,(0,0,0),3840,1920)
 #展示列表'objects'中所有元素，观察者在(0,0,0)处，图像大小3840x1920，返回的是图像。
+
+# Example示例
+example.py is an example of cv3d about a kind of pendulum.
+example.py是cv3d的一个示例，与一种摆有关。
