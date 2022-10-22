@@ -14,8 +14,9 @@ for t in range(60):
     objects.append([(np.sin(tx)*x*3/4,0,-100),(0,-150,200),(0,0,255),2,8,'line'])
     objects.append([(np.sin(tx)*x,np.sin(ty)*y,-200),(0,255,0),20,-1,'sphere'])
     objects.append([(0,200,200),(0,-200,200),(255,0,0),4,8,'line'])
-    object2.append([(np.sin(tx)*x,np.sin(ty)*y,-200),(0,255,0),1,-1,'sphere'])
+    objects.append([(np.sin(tx)*x,np.sin(ty)*y,-200),(0,255,0),1,-1,'sphere'])
     img=IIID.show(objects,(0,0,0),1280,720,[45,35,1,0,0],(1,0))
     video.write(img)
 video.release()
 img=IIID.show(object2,(0,0,-200),1280,720,[45,35,1,0,-1],(1,0))
+s
